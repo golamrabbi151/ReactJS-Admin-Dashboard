@@ -1,0 +1,65 @@
+.nav-tabs {
+  border-bottom: 1px solid #3576b7;
+}
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  color: #495057;
+  background-color: #fff;
+  border-color: #3576b7 #3576b7#fff;
+}
+/* .form-control {
+    border-radius: 0rem;
+    outline: 0;
+    border-width: 1px 1px 1px;
+    border-color: #E5E5E5;
+} */
+
+.add-new-products-tabs {
+  width: 82%;
+  margin: auto;
+  background-color: white;
+  padding: 20px 40px 40px 40px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+.add-product-body {
+  background-color: #f1f2f7;
+  padding-top: 3px;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-bottom: 74px;
+}
+.product-add-top-p1 {
+  float: left;
+}
+.product-add-top-p2 {
+  float: right;
+}
+.product-add-top-header {
+  margin-bottom: 38px;
+  background-color: white;
+  padding: 10px;
+  height: 44px;
+}
+.save-product-text {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.tab-tag {
+  padding-top: 12px;
+  padding-bottom: 10px;
+}
+.tab-tag h3 {
+  border-bottom: 1px solid #495057;
+  padding-bottom: 7px;
+}
+
+/* products single image */
+
+.single-product-image input{
+    width: 300px !important;
+    padding: 38px !important;
+    border: 1px solid gray !important;
+    border-radius: 10px !important;
+
+}
+

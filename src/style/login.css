@@ -1,0 +1,112 @@
+.login-container{
+    background-color:#F2F2F2;
+    max-width: 100%;
+    height: 140vh;
+    padding-top: 60px;
+
+}
+
+.login-form{
+    /* width: 350px; */
+    margin: auto;
+    border-radius: 10px;
+    background-color: white;
+    padding:33px 35px 33px 35px;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,.2), 0 4px 20px 0 rgba(0,0,0,.19);
+    /* 0 0 0 / 5% */
+}
+.login-text-h3{
+    font-weight: bold;
+}
+.login-form-control {
+    border-radius: 0rem !important;
+    outline: 0 !important;
+    border-width: 0 0 2px !important;
+    border-color: #E5E5E5 !important;
+}
+/* input {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #ced4da;
+    
+  } */
+  /* input:focus {
+    border-color: green
+  } */
+
+  .login-form-control:focus {
+    color: #495057 !important;
+    background-color: #fff !important;
+    border-color: #80bdff !important;
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+.forget-passowrd{
+    float: right;
+    margin-top: 11px;
+
+}
+
+input::placeholder{
+    font-size: 14px !important;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.signup-with-div{
+    text-align: center;
+}
+.signup-with-div p{
+    padding-top: 14px;
+}
+
+.social-login-list{
+    list-style-type: none;
+    float: left;
+    border-radius: 50%;
+    width: 34px;
+    padding: 5px;
+    
+    margin: 6px;
+}
+.social-login-list:hover {
+    opacity: 0.7;
+}
+
+
+.social-facebook{
+    background-color:#425894;
+    color: white;
+}
+.social-twitter{
+    background-color:#449FF2;
+    color: white;
+}
+.social-google{
+    background-color:#DB5647;
+    color: white;
+}
+/* margin-left: 15%; */
+ ul{ 
+     padding-left: 31px;
+ } 
+
+@media only screen and (max-width: 768px) {
+     ul{ 
+        width: 200px;
+        margin: auto;
+ } 
+
+}
+
+.donot-account{
+    padding-top: 60px;
+    text-align: center;
+}

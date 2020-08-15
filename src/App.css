@@ -1,0 +1,86 @@
+@font-face {
+    font-family: nunito-regular;
+    src: url('./assets/fonts/Nunito-Regular.ttf');
+  }
+  
+  @font-face {
+    font-family: nunito-bold;
+    src: url('./assets/fonts/Nunito-Bold.ttf');
+    
+  }
+  
+  @font-face {
+    font-family: roboto-bold;
+    src: url('./assets/fonts/Roboto-Bold.ttf');
+  }
+
+/* Main App */
+.App {
+  background: #e0e0e0;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+main {
+  margin-top: 90px;
+}
+
+.col-12 {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+/* sider bar */
+.pro-sidebar {
+  position: fixed !important;
+  height: 100vh !important;
+}
+
+.sidebar .top-nav .img-box {
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+
+.sidebar .top-nav .img-box img {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.sidebar .top-nav .dropdown-menu {
+  font-size: 14px;
+  font-family: nunito-regular;
+}
+
+.sidebar .top-nav .dropdown-toggle:after {
+  content: none !important;
+}
+
+.sidebar .top-nav p {
+  font-size: 14px;
+  font-family: nunito-regular;
+}
+
+@media (max-width: 992px) {
+  .sidebar .top-nav {
+    position: fixed;
+    top: 0;
+    padding: 10px;
+    width: 100%;
+    z-index: 8;
+  }
+}
+
+@media (min-width: 992px) {
+  .sidebar .top-nav {
+    position: fixed;
+    top: 0;
+    padding: 10px;
+    width: 100%;
+    padding-left: 280px;
+    z-index: 8;
+  }
+  main {
+    padding-left: 270px;
+  }
+}
